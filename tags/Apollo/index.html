@@ -3,7 +3,7 @@
     <head>
   <!-- 元数据 -->
   <meta charset="utf-8">
-  <link rel="icon" href="/images/site_logo.webp">
+  <link rel="icon" href="">
   <title>兮鳧</title>
   <meta name="author" content="cherry.sprout" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -22,12 +22,9 @@
 <meta property="og:site_name" content="兮鳧">
 <meta property="og:description" content="犥䎃䵼湦">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://chr-spr.xyz/images/site_logo.webp">
 <meta property="article:author" content="cherry.sprout">
 <meta property="article:tag" content="雲曦">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://chr-spr.xyz/images/site_logo.webp">
-<meta name="twitter:site" content="@Budglad">
   
   <!-- 站点验证相关 -->
   
@@ -38,6 +35,10 @@
   <!-- 样式表文件 -->
   <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
   
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" type="text/css" media="(prefers-color-scheme: dark)">
+    <script src="/js/kr-dark.min.js"></script>
+  
+  
     <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-eighties.min.css" type="text/css" media="all">
   
   
@@ -45,13 +46,11 @@
   <link rel="stylesheet" id="nprogress-css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" type="text/css" media="all">
   
   
+  
     <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
   
   
     <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-  
-  
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
   
   <!-- 不得不预先加载的一些JS文件 -->
   <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
@@ -107,7 +106,7 @@
                                                     
                                                 
                                                     
-                                                        <li><a href="https://chr-spr.xyz">作者博客</a></li>
+                                                        <li><a target="_blank" rel="noopener" href="https://candinya.com">作者博客</a></li>
                                                     
                                                 
                                                     
@@ -180,9 +179,10 @@
 
 
 
+
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
@@ -195,10 +195,10 @@
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             
-                        <h2 class="kratos-entry-title-new"><a href="/2022-04-28/Apollo%E5%AE%89%E8%A3%85f0705ae4aa3a.html">Apollo安装</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022-04-28/Apollo%E5%AE%89%E8%A3%85f0705ae4aa3a.html" itemprop="mainEntityOfPage"><span itemprop="name headline">Apollo安装</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 Apollo环境搭建1.0 安装 Ubuntu 系统官方推荐安装Ubuntu 18.04.5 LTS (Bionic Beaver)，其他版本也可以。因此，推荐您使用 Ubuntu 18.04.5+（包括 Ubuntu 20.04）作...
                             
@@ -207,10 +207,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-04-28
-                        </a>
+                        <time datetime="2022-04-28T04:35:53.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-04-28</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -367,13 +366,13 @@
                 <div class="col-md-6 col-md-offset-3 footer-list text-center">
                     <ul class="kratos-social-icons">
                         
-                        <li><a href="mailto:cherry.sproutm@gmail.com"><i class="fa fa-envelope"></i></a></li>
                         
-                        <li><a target="_blank" rel="nofollow" href="https://twitter.com/Budglad"><i class="fa fa-twitter"></i></a></li>
-                        
+                        <li><a target="_blank" rel="nofollow" href="https://t.me/CandyUnion"><i class="fa fa-telegram"></i></a></li>
                         
                         
-                        <li><a target="_blank" rel="nofollow" href="https://github.com/Chr-spr"><i class="fa fa-github"></i></a></li>
+                        
+                        <li><a target="_blank" rel="me" href="https://nya.one/@Candinya"><i class="fa fa fa-share-alt-square"></i></a></li>
+                        <li><a target="_blank" rel="nofollow" href="https://github.com/Candinya"><i class="fa fa-github"></i></a></li>
                         
                     </ul>
                     <ul class="kratos-copyright">
@@ -390,8 +389,8 @@
                             <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a></li>
                         </div>
                         <div>
-                            <li><a href="https://beian.miit.gov.cn" rel="external nofollow" target="_blank">ICP备22021912号</a></li>
-                            <li><a href="http://www.beian.gov.cn" rel="external nofollow" target="_blank"><img src="/images/psr.webp" width="12" height="12">公网安备95270200200513号</a></li>
+                            
+                            
                         </div>
                     </ul>
                 </div>
@@ -432,11 +431,6 @@
     window.kr.siteRoot = "/";
 </script>
 
-    <div>
-        <canvas id="snow"></canvas>
-        <script async type="text/javascript" src="/js/snow.min.js"></script>
-    </div>
-
 
     <script async src="/js/candy.min.js"></script>
 
@@ -461,9 +455,6 @@
 <script defer src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
-
-
-    <script defer src="/js/kr-dark.min.js"></script>
 
 
 
